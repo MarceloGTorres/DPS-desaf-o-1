@@ -1,0 +1,130 @@
+body {
+  background-image: radial-gradient(circle at -7.92% 9.44%, #ffcffc 0, #ffcef1 3.33%,
+    #ffcee6 6.67%, #ffcedb 10%, #ffcfd1 13.33%, #ffd1c7 16.67%, #ffd3bd 20%,
+    #ffd6b5 23.33%, #ffd9ad 26.67%, #ffdda7 30%, #ffe0a1 33.33%, #ffe49d 36.67%,
+    #ffe89b 40%, #ffeb9a 43.33%, #fdef9b 46.67%, #f2f29d 50%, #e6f5a1 53.33%,
+    #daf8a6 56.67%, #cefaad 60%, #c2fdb4 63.33%, #b5ffbd 66.67%, #a8ffc7 70%,
+    #9bffd1 73.33%, #8effdc 76.67%, #81ffe7 80%, #75fff2 83.33%, #6afffd 86.67%,
+    #62ffff 90%, #5cffff 93.33%, #5bffff 96.67%, #5fffff 100%);
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: "Lato";
+  color: #333;
+}
+
+h1{
+  font-size: 80px; 
+  color: red; 
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold; 
+}
+
+h2{font-size: 30px; 
+  color: rgb(12, 15, 218); 
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold; 
+  text-align: center;
+}
+p,h3{font-size: 20px; 
+  color: rgb(59, 71, 2); 
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold; 
+  text-align: center;
+
+}
+label{font-size: 20px; 
+  color: rgb(59, 71, 2); 
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold; 
+}
+select,input,button{
+  font-size: 20px; 
+  color: #ffcedb ;
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold; 
+
+}
+
+.form-container {
+  width: 50%; 
+  float: right; 
+  clear: both; 
+  margin-top: 2px; 
+}
+
+.formulario {
+  background-color: #f9f9f9; 
+  border: 5px solid #f7d620; 
+  padding: 20px; 
+  border-radius: 15px; 
+}
+.formulario h2 {
+  margin-top: 0; 
+}
+
+.formulario label {
+  display: block; 
+  margin-bottom: 10px; 
+}
+
+.formulario select, .formulario input[type="text"], .formulario input[type="number"], .formulario input[type="date"] {
+  width: 100%; 
+  padding: 8px; 
+  margin-bottom: 10px; 
+  border-radius: 10px; 
+  box-sizing: border-box; 
+}
+
+.formulario button {
+  width: 100%; 
+  padding: 10px; 
+  background-color: #588d5a; 
+  color: rgb(7, 7, 7); 
+  border: none; 
+  border-radius: 30px; 
+  cursor: pointer; 
+}
+
+.formulario button:hover {
+  background-color: #a97af5; 
+}
+
+.resumen-ingresos,
+.resumen-gastos {
+  width: calc(50% - 40px); 
+  margin-bottom: 30px; 
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  padding: 40px; 
+  text-align: left; 
+  float: left; 
+}
+.resumen-ingresos h3,
+.resumen-gastos h3 {
+  margin-top: 0; 
+}
+
+.resumen-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.resumen-table th,
+.resumen-table td {
+  border: 1px solid #ddd;
+  padding: 10px; 
+  text-align: left; 
+}
+
+.resumen-table th {
+  background-color: #98ec9d;
+}
+
+.resumen-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.resumen-table tr:hover {
+  background-color: #ddd;
+}

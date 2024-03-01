@@ -1,0 +1,34 @@
+{
+  "ingresos": [
+    {
+      "tipo": "ingreso",
+      "categoria": "Salario",
+      "descripcion": "Pago mensual",
+      "cantidad": 500.00,
+      "fecha": "2024-02-29"
+    },
+    {
+      "tipo": "ingreso",
+      "categoria": "Caja Fuerte",
+      "descripcion": "dinero prestado",
+      "cantidad": 1200.50,
+      "fecha": "2024-02-15"
+    }
+  ],
+  "gastos": [
+    {
+      "tipo": "gasto",
+      "categoria": "Alimentación",
+      "descripcion": "Compras del supermercado",
+      "cantidad": 150,
+      "fecha": "2024-02-28"
+    },
+    {
+      "tipo": "gasto",
+      "categoria": "Transporte",
+      "descripcion": "Combustible",
+      "cantidad": 50.00,
+      "fecha": "2024-02-25"
+    }
+  ]
+}
