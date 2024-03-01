@@ -1,0 +1,42 @@
+[
+    {
+        "id": 11,
+        "title": "Café Latte",
+        "descripcion": "café recién hecho con la suavidad de la leche vaporizada",
+        "price": 6.95,
+        "urlImage": "https://www.recetasnestle.com.ec/sites/default/files/inline-images/tazas-con-cafe-latte.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 12,
+        "title": "Cappuccino",
+        "descripcion": "espresso con la suavidad de la leche vaporizada y la delicadeza de la espuma",
+        "price": 3.99,
+        "urlImage": "https://www.recetasnestle.com.ec/sites/default/files/inline-images/taza-con-cafe-cappuccino.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 13,
+        "title": "Café a prueba de balas",
+        "descripcion": "combina café recién hecho con mantequilla sin sal y aceite de coco",
+        "price": 3.55,
+        "urlImage": "https://www.cafeginebras.com/wp-content/uploads/2022/10/cafe-ginebras-a-prueba-de-balas-1.webp",
+        "quantity": 1
+    },
+    {
+        "id": 14,
+        "title": "Crema de relleno con Café",
+        "descripcion": "la cremosidad de la crema con el rico sabor del café y rica espuma",
+        "price": 3.95,
+        "urlImage": "https://www.cafeginebras.com/wp-content/uploads/2021/05/CafeGinebras_Receta_crema-de-relleno-con-cafe-ginebras.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 15,
+        "title": "Espresso de Caramelo",
+        "descripcion": "jarabe de caramelo o alguna variante de sabor a caramelo y un sabor característico",
+        "price": 3.00,
+        "urlImage": "https://supercafeteros.com/wp-content/uploads/2021/11/cappuccino-caliente-chocolate-500x333.jpg.webp",
+        "quantity": 1
+    }
+]

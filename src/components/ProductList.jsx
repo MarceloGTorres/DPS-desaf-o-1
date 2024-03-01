@@ -1,0 +1,51 @@
+import React from "react";
+import  data  from '../Bebidafria.json';
+import  data2  from "../Bebidacaliente.json";
+import  data3  from "../Postrescafe.json";
+import  data4  from "../BebidaTe.json";
+import  data5  from "../Sandwiches.json";
+
+export const ProductList = ({
+   allProducts,
+   setAllProducts,
+   countProducts,
+   setCountProducts,
+   total,
+   setTotal,
+}) => {
+   const combinedProducts = [...data, ...data2, ...data3, ...data4, ...data5];
+   const onAddProduct = product => {
+      if (allProducts.find(item => item.id === product.id)) {
+         const products = allProducts.map(item =>
+            item.id === product.id
+               ? { ...item, quantity: item.quantity + 1 }
+               : item
+         );
+         setTotal(total + product.price * product.quantity);
+         setCountProducts(countProducts + product.quantity);
+         return setAllProducts([...products]);
+      }
+      setTotal(total + product.price * product.quantity);
+      setCountProducts(countProducts + product.quantity);
+      setAllProducts([...allProducts, product]);
+   };
+   return (
+      <div className='container-items'>
+         {combinedProducts.map((product) => (
+            <div className='item' key={product.id}>
+               <figure>
+                  <img src={product.urlImage} alt={product.title} />
+               </figure>
+               <div className='info-product'>
+                  <h2>{product.title}</h2>
+                  <p className="description">{product.descripcion}</p>
+                  <p className='price'>${product.price}</p>
+                  <button onClick={() => onAddProduct(product)}>
+                     Añadir al carrito
+                  </button>
+               </div>
+            </div>
+         ))}
+      </div>
+   );
+};

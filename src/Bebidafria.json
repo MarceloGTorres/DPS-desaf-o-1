@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Latte helado",
+        "descripcion": "Una mezcla refrescante de café espresso, leche fría y hielo",
+        "price": 4.05,
+        "urlImage": "https://s1.abcstatics.com/media/bienestar/2022/07/20/latte-helado-klhH--510x287@abc.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "title": "Café con cacahuete",
+        "descripcion": "robustez del café con la cremosidad y el sabor a nuez del cacahuate,",
+        "price": 4.25,
+        "urlImage": "https://s2.abcstatics.com/media/bienestar/2022/07/20/cacahuete-1-cafe-klhH--510x287@abc.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "title": "Café shakerato",
+        "descripcion": "Un espresso agitado con hielo y azúcar para crear una bebida refrescante",
+        "price": 4.85,
+        "urlImage": "https://s2.abcstatics.com/media/bienestar/2022/07/20/shakerato-cafe-klhH--510x287@abc.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "title": "Café frapuccino",
+        "descripcion": "Una bebida refrescante y cremosa que combina café espresso",
+        "price": 4.95,
+        "urlImage": "https://s3.abcstatics.com/media/bienestar/2022/07/20/frapuccino-klhH--510x287@abc.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "title": "Café helado",
+        "descripcion": "Una bebida refrescante que combina café recién hecho con hielo",
+        "price": 4.99,
+        "urlImage": "https://s1.abcstatics.com/media/bienestar/2022/07/20/cafe-frio-k4gH--510x287@abc.jpg",
+        "quantity": 1
+    }
+]

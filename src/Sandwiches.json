@@ -1,0 +1,42 @@
+[
+    {
+        "id": 41,
+        "title": "Pollo y Mozzarella",
+        "descripcion": "Sándwich de pollo con queso mozzarella. para un sabor esquisito",
+        "price": 6.75,
+        "urlImage": "https://cdn0.recetasgratis.net/es/posts/8/1/0/sandwich_de_pollo_con_queso_58018_orig.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 42,
+        "title": "Spiced tuna sándwich",
+        "descripcion": "Pan de maíz, atún con mayonesa, pimiento rojo, albahaca picada y especias.",
+        "price": 6.93,
+        "urlImage": "https://i0.wp.com/thebuttertable.com/wp-content/uploads/2023/12/spicy-tuna-sandwich-plate.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 43,
+        "title": "Jamón Bacon y queso",
+        "descripcion": "Pan multicereal con jamón york, queso y bacon.",
+        "price": 6.85,
+        "urlImage": "https://www.annarecetasfaciles.com/files/club-sandwich-1a.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 44,
+        "title": "Focaccia de Pastrami",
+        "descripcion": "Focaccia de aceite, crema de mascarpone, pistachos",
+        "price": 6.65,
+        "urlImage": "https://i.blogs.es/fa287f/pastrami-copia/840_560.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 45,
+        "title": "Bagel jamón y queso",
+        "descripcion": "Baguel con jamón y queso edam de la mejor calidad",
+        "price": 6.75,
+        "urlImage": "https://d36fw6y2wq3bat.cloudfront.net/recipes/bagel-de-huevo-queso-y-champinones/900/bagel-de-huevo-queso-y-champinones_version_1648094490.jpg",
+        "quantity": 1
+    }
+]
